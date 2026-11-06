@@ -6,6 +6,10 @@ ReleaseScope evaluates deployment signals before production, produces an auditab
 
 This is a clean-room portfolio project. All code, rules, names, and demo data were created from scratch. It contains no employer code, data, schemas, credentials, or proprietary business rules.
 
+![ReleaseScope deployment intelligence dashboard](docs/assets/releasescope-dashboard.jpg)
+
+The dashboard is interactive: select a release to inspect its decision factors or run the built-in simulation to generate a new deployment, calculate its risk, and route it to allow, human review, or block.
+
 ## Why this exists
 
 Deployment decisions are often based on a green pipeline alone. ReleaseScope combines change size, test outcomes, incident history, critical dependencies, performance regression, security findings, coverage, and rollback readiness into one explainable decision.
@@ -30,6 +34,8 @@ Deployment risk = change surface
 - Replay protection and bounded asynchronous event processing.
 - Rate limiting, Problem Details, and explicit CORS policy.
 - React and TypeScript operations dashboard.
+- Interactive deployment simulation with animated decision feedback.
+- Responsive presentation for desktop, tablet, and mobile.
 - Generated demo deployments with no external dependencies.
 - Automated domain tests covering decisions and protective controls.
 - Docker Compose and GitHub Actions CI.
