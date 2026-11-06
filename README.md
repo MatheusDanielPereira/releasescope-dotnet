@@ -10,6 +10,8 @@ This is a clean-room portfolio project. All code, rules, names, and demo data we
 
 The dashboard is interactive: select a release to inspect its decision factors or run the built-in simulation to generate a new deployment, calculate its risk, and route it to allow, human review, or block.
 
+**[Open the live interactive demo](https://matheusdanielpereira.github.io/releasescope-dotnet/)**
+
 ## Why this exists
 
 Deployment decisions are often based on a green pipeline alone. ReleaseScope combines change size, test outcomes, incident history, critical dependencies, performance regression, security findings, coverage, and rollback readiness into one explainable decision.
