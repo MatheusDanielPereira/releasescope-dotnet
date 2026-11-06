@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ReleaseScope.Api/ReleaseScope.Api.csproj" />
+    <Project Path="src/ReleaseScope.Domain/ReleaseScope.Domain.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ReleaseScope.Api.Tests/ReleaseScope.Api.Tests.csproj" />
+    <Project Path="tests/ReleaseScope.Domain.Tests/ReleaseScope.Domain.Tests.csproj" />
+  </Folder>
+</Solution>
